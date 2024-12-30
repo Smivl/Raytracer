@@ -36,7 +36,7 @@ Inside **`config.py`**, you can change various settings to customize your render
 - **Supersampling**  
   - `SUPERSAMPLING_SCALE`: By default, it’s set to `1` (supersampling off).  
     - If set to `N` (an integer ≥ 1), then `N*N` sub-pixels will be computed for each final pixel (for anti-aliasing).  
-  - `AA_ALGORITHM`: Determines which anti-aliasing algorithm to use. Default is `ANTI_ALIASING_ALGORITHM.GRID`. You can switch to `GRID_ROTATION` for a rotated sampling pattern, or add your own.  
+  - `AA_ALGORITHM`: Determines which anti-aliasing algorithm to use. Default is `ANTI_ALIASING_ALGORITHM.GRID`. You can switch to `ROTATED_GRID` for a rotated sampling pattern, or add your own.  
   - `ROT_GRID_ANGLE` and `ROT_GRID_SCALE`: Specific settings used by the rotated grid algorithm.
 
 - **Reflection Depth**  
